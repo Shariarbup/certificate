@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shuvo's Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      body {
+        background-image: url("images/background.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">AL SHARIAR</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ALL CERTIFICATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">THESIS PAPPER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+    <section id="Ad">
+      <div class="mt-5 pt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="well">
+                <marquee class="display-4">Assalamualaikum Everyone, my portfolio site: <a href="https://www.shariar.epizy.com" target="_blank">Click Here</a></marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="my-3 pt-5">
+        <h1 class="text-center">ALL OF MY CERTIFICATE</h1>
+        <hr class="w-25 mx-auto bg-dark p-1" />
+      </div>
+      <div class="container">
+        <div class="row gallerys">
+          <div class="col-lg-4 col-md-4 col-6 mb-2">
+            <a href="images/css_certificate.jpg" target="_blank">
+              <img
+                src="images/css_certificate.jpg"
+                alt="CSS picture"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 mb-2">
+            <a href="images/html_certificate.jpg" target="_blank">
+              <img
+                src="images/html_certificate.jpg"
+                alt="HTML picture"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 mb-2">
+            <a href="images/javascript_certificate.jpg" target="_blank">
+              <img
+                src="images/javascript_certificate.jpg"
+                alt="JAVASCRIPT picture"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 mb-2">
+            <a href="images/BUP_TECHSURGENCE_HACKATHON_CHAMPION_CERTIFICATE.jpg" target="_blank">
+              <img
+                src="images/BUP_TECHSURGENCE_HACKATHON_CHAMPION_CERTIFICATE.jpg"
+                alt="HACKATHON BUP_TECHSURGENCE picture"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 mb-2">
+            <a href="images/IUT_ICT_FEST_PARTICIPATION_CERTIFICATE.jpg" target="_blank">
+              <img
+                src="images/IUT_ICT_FEST_PARTICIPATION_CERTIFICATE.jpg"
+                alt="IUT ICT TECH FEST picture"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 mb-2">
+            <a href="images/bohubrihi_certificate.JPG" target="_blank">
+              <img
+                src="images/bohubrihi_certificate.JPG"
+                alt="Bohubrihi certificate picture"
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    +
+
+    <!-- Favourite Short Film -->
+    <section class="mb-5">
+      <div class="my-3">
+        <h1 class="text-center">MY THESIS PAPPER</h1>
+        <hr class="w-50 mx-auto bg-dark p-1" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <iframe src = "/html/menu.htm" width = "555" height = "200">
+            Sorry your browser does not support inline frames.
+         </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="">
+      <p class="text-center bg-dark p-3 text-white">
+        Copyright © All Right Reserved by Shuvo. Developed By--
+        <a href="http://www.shariar.epizy.com/" target="_blank">Al Shariar</a>
+      </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".gallerys").magnificPopup({
+          type: "image",
+          delegate: "a",
+          gallery: {
+            enabled: true,
+          },
+        });
+      });
+
+      $(document).ready(function () {
+        $(".videos").magnificPopup({
+          type: "iframe",
+          delegate: "a",
+          iframe: {
+            markup:
+              '<div class="mfp-iframe-scaler">' +
+              '<div class="mfp-close"></div>' +
+              '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+              "</div>",
+
+            patterns: {
+              youtube: {
+                index: "youtube.com/",
+
+                id: "v=",
+
+                src: "https//www.youtube.com/embed/%id%?autoplay=1",
+              },
+              vimeo: {
+                index: "vimeo.com/",
+                id: "/",
+                src: "//player.vimeo.com/video/%id%?autoplay=1",
+              },
+              gmaps: {
+                index: "//maps.google.",
+                src: "%id%&output=embed",
+              },
+            },
+
+            srcAction: "iframe_src",
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
